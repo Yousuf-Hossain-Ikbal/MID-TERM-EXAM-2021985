@@ -1,0 +1,51 @@
+body {
+    /* Yousuf Hossain Ikbal - 2021985 */
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.service {
+    margin: 20px;
+    text-align: center;
+    max-width: 400px;
+}
+
+.service-image {
+    width: 100%;
+    height: auto;
+}
+
+.service h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+ul {
+    text-align: left;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
