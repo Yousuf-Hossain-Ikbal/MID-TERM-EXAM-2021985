@@ -1,0 +1,66 @@
+/* Same general styles as before */
+
+body {
+    /* Yousuf Hossain Ikbal - 2021985 */
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f8f8f8; /* Light background */
+}
+
+header {
+    text-align: center;
+    padding: 3px;
+    background-color: #285ebb;
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact-image {
+    width: 40%;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+form {
+    width: 50%;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+button {
+    background-color: #285ebb;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+p {
+    text-align: justify;
+}
+footer {
+    text-align: center;
+    padding: 1px;
+    background-color: #ccc;
+}
