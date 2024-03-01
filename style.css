@@ -1,64 +1,71 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services</title>
-    <link rel="stylesheet" href="procucts.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap">
-</head>
-<body>
-    <!-- Yousuf Hossain Ikbal - 2021985-->
-    <!-- Used Display Grid in this code -->
-    <header>
-        <h1>Products</h1>
-    </header>
+/* style.css */
 
-    <main>
-        <section class="service">
-            <img src="image-2.jpg" alt="Toshiba TV" class="service-image"> 
-            <b>Toshiba A23G</b>
-            <p><b><u>Features</u></b></p>
-            <ul>
-                <li>Full HD+ AMOLED Display</li>
-                <li>Life time service Warranty</li>
-                <li>No Delivary Charge</li>
-                <li>ISO certified</li>
-            </ul>
-        </section>
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap");
 
-        <section class="service">
-            <img src="image-3.jpg" alt="Butterfly TV" class="service-image">
-            
-            <p><b><u>Other Products:</u></b></p>
-            <table border="1">
-                <tr>
-                    <th>Products</th>
-                    <th>Description</th>
-                    <th>Price</th>
-                </tr>
-                <tr>
-                    <td>Walton Fridge</td>
-                    <td>Model A25K</td>
-                    <td>46000 BDT/td>
-                </tr>
-                <tr>
-                    <td>Toshiba TV</td>
-                    <td>Model A23G</td>
-                    <td>53000 BDT</td>
-                </tr>
-                <tr>
-                    <td>Butterfly TV</td>
-                    <td>Model A23L</td>
-                    <td>84000 BDT</td>
-                </tr>
-            </table>
-        </section>
-    </main>
+/* Yousuf Hossain Ikbal - 2021985 */
+/* Used Display Flex in this code */
+header {
+  text-align: center;
+  padding: 30px;
+  background-color: #333;
+  color: #fff;
+}
 
-    <footer>
-        <p>Created for educational purposes & copy; 2024</p>
-    </footer>
-</body>
-</html>
+img {
+  max-width: 200px; /* Adjust as needed */
+  margin: 10px auto;
+  display: block;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 50vh;
+  background: #2192ff;
+  **display: flex;** /* Added display: flex; */
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+  background: #fff;
+  border-radius: 9px;
+  padding: 3px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  font-size: 2rem;
+  padding: 0 10px;
+  margin: 0 20px;
+  cursor: pointer;
+  position: relative;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav ul li:after {
+  content: "";
+  width: 0;
+  height: 3px;
+  background: #0a1a28;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+
+nav ul li:hover::after {
+  width: 100%;
+}
